@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>Songs</title>
+
+    </head>
+    <body>
+    <ul>
+
+        <% @songs.each do |song|     %>
+     <li> <%= song.name %>
+          <% end %>
+    </li>
+
+    </ul> 
+
+    </body>
+</html>
